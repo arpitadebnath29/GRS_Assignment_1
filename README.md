@@ -1,7 +1,8 @@
 # MT25018 - Processes vs Threads Performance Analysis
 
+**Author**: Arpita Debnath | **Roll**: MT25018  
 **GitHub**: https://github.com/arpitadebnath29/GRS_Assignment_1  
-**Roll**: MT25018 | **Course**: CSE638 Graduate Systems | **Date**: Jan 2026
+**Course**: CSE638 Graduate Systems | **Date**: Jan 2026
 
 ## Overview
 Performance comparison of **fork-based processes** vs **pthread-based threads** across CPU, memory, and I/O workloads with scalability analysis (2-8 workers).
@@ -122,8 +123,7 @@ pip3 install matplotlib pandas
 # Clean build
 make clean && make
 ```
----
 
-**Author**: Arpita Debnath | MT25018
+---
 
 **End of README**

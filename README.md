@@ -11,16 +11,20 @@ Performance comparison of **fork-based processes** vs **pthread-based threads** 
 
 ---
 
-## Quick Start
+## Usage Instructions
 
 ```bash
-# Build & Run
+# Compilation
 make clean && make                # Clean previous build, then compile programs
+
+# Automated Testing
 ./MT25018_Part_C_shell.sh         # Part C: 2 workers, 6 tests
 ./MT25018_Part_D_shell.sh         # Part D: Scalability (33 tests)
+
+# Visualization
 python3 MT25018_Part_D_plot.py    # Generate 9 individual plot visualizations
 
-# Manual Execution
+# Manual Execution Examples
 ./MT25018_Part_A_Program_A cpu 2  # Fork: 2 processes, CPU workload
 ./MT25018_Part_A_Program_B mem 4  # Thread: 4 threads, memory workload
 ```
